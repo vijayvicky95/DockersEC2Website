@@ -1,11 +1,10 @@
 # Hosting static website on aws EC2 Instance with Docker Container
 
-Youtube Video Link: https://youtu.be/47nHb27AxEk
-
 ## Steps : 
 
 1. Create a Security Group on AWS EC2 :  Allow port 80 (http) and 22 (ssh) inbound rule
-2. Create an EC2 Instance using below provision shell script   
+2. Use Ubutu linux - Launch-wizard-1 security group - your own sshkey - t2.micro - spot instance
+3. Create an EC2 Instance using below provision shell script (first block) in the "USER DATA" 
  
 ```  
 #!/bin/bash
