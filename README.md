@@ -56,11 +56,11 @@ server {
 4. Build Docker Image   
 
 ```
-docker build -t testimg:v1 . 
+sudo docker build -t testimg:v1 . 
 ```  
 
 5. Run the Container  
 
 ```
-docker run -it --rm -d -p 80:80 testimg:v1  
+sudo docker run -it --rm -d -p 80:80 testimg:v1  
 ```
