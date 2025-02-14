@@ -26,7 +26,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 3. Create Dockerfile and nginx configuration   
 
-Dockerfile 
+Dockerfile (Vi Dockerfile) 
 
 ```
 FROM nginx:latest
@@ -42,7 +42,7 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```  
 
-nginx configuration file 
+nginx configuration file  (vi default.conf)
 
 ```
 server {
